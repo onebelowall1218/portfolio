@@ -1,6 +1,6 @@
 # Anjum Ulazim — Portfolio
 
-A recruiter-focused portfolio for AI Engineer Anjum Ulazim. Built with Next.js App Router, TypeScript, Tailwind CSS, and Vercel Analytics.
+A recruiter-focused portfolio for AI Engineer Anjum Ulazim. Built with Next.js App Router, TypeScript, Tailwind CSS, and Vercel Analytics. Live at [anjum-ulazim.vercel.app](https://anjum-ulazim.vercel.app).
 
 ## Local development
 
@@ -29,4 +29,4 @@ The downloadable CVs are in `public/resumes/`. Replace them when resume content 
 
 ## Vercel
 
-Connect this repository to a Vercel project using the Next.js preset. The deployment URL is detected automatically for metadata. When a permanent domain is chosen, set `NEXT_PUBLIC_SITE_URL` to its full `https://` URL for stable canonical links and sitemap entries. Enable Web Analytics in the Vercel dashboard to see traffic data from the included Analytics component.
+This repository is connected to the `anjum-ulazim` Vercel project. Production deploys from `main` to `https://anjum-ulazim.vercel.app`. The Production environment variable `NEXT_PUBLIC_SITE_URL` is set to that URL for stable canonical links and sitemap entries. Web Analytics is enabled in the Vercel dashboard and the Analytics component is included in the app.
